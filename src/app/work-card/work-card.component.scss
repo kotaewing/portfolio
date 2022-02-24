@@ -1,0 +1,34 @@
+.contact-card {
+  border-radius: 1.5rem;
+  background-color: #eee;
+}
+
+[nbInput].status-basic {
+  background-color: #eee;
+  color: black;
+}
+
+nb-radio.status-warning span.text {
+  color: black;
+}
+
+.list-section-header {
+  color: black;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.work-img {
+  background-image: url("../../assets/concrete.png");
+}
+
+.card,
+.card-img {
+  border-radius: 1.5rem;
+}
+
+.card-img-overlay {
+  padding: 0;
+}

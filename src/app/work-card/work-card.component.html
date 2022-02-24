@@ -1,0 +1,53 @@
+<div class="card bg-dark work-card mb-5">
+  <img
+    src="https://mdbootstrap.com/img/new/slides/017.webp"
+    class="card-img"
+    alt="..."
+  />
+  <div class="card-img-overlay radius">
+    <div class="row h-100">
+      <div class="col-6 h-100 order-{{ model.order === 1 ? '1' : '2' }}">
+        <div
+          class="card p-5 h-100 d-flex flex-column align-items-center justify-content-center"
+        >
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h2 class="text-black">Project Name</h2>
+            <p class="text-black">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+              iure asperiores itaque, perspiciatis voluptatem hic fugit error
+              aliquid commodi sint! Atque repudiandae libero autem ut provident
+              earum corrupti quia nisi?
+            </p>
+            <div class="row">
+              <div class="col-6">
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  nbButton
+                  shape="round"
+                  status="warning"
+                >
+                  View Live Site
+                </a>
+              </div>
+              <div class="col-6">
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  nbButton
+                  shape="round"
+                  status="warning"
+                >
+                  View Live Site
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 h-100 order-{{ model.order === 1 ? '2' : '1' }}"></div>
+    </div>
+  </div>
+</div>
