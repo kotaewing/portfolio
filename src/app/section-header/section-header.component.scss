@@ -1,0 +1,21 @@
+.section-container {
+    width: fit-content;
+}
+
+.section-header {
+    width   : fit-content;
+    height  : fit-content;   
+    position: relative;
+    z-index : 1;
+    margin: 0;
+    font-family: 'Playfair Display', serif !important;
+  }
+
+.section-underline {
+    margin: 0;
+    height  : 5px;
+    width   : 60%;  /* or 100px */
+    color:#e2af2f;
+    border-radius: 10px;
+    opacity: 1;
+}

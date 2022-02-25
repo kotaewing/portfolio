@@ -13,17 +13,12 @@
           <div
             class="d-flex flex-column align-items-center justify-content-center"
           >
-            <h2 class="text-black">Project Name</h2>
-            <p class="text-black">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
-              iure asperiores itaque, perspiciatis voluptatem hic fugit error
-              aliquid commodi sint! Atque repudiandae libero autem ut provident
-              earum corrupti quia nisi?
-            </p>
+            <h2 class="text-black">{{model.name}}</h2>
+            <p class="text-black">{{model.description}}</p>
             <div class="row">
               <div class="col-6">
                 <a
-                  href="https://google.com"
+                  href={{model.liveLink}}
                   target="_blank"
                   nbButton
                   shape="round"
@@ -34,13 +29,13 @@
               </div>
               <div class="col-6">
                 <a
-                  href="https://google.com"
+                  href={{model.githubLink}}
                   target="_blank"
                   nbButton
                   shape="round"
                   status="warning"
                 >
-                  View Live Site
+                  View GitHub
                 </a>
               </div>
             </div>

@@ -13,6 +13,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ContactCardComponent } from './contact-card/contact-card.component';
 import { WorkCardComponent } from './work-card/work-card.component';
 import { WorkComponent } from './work/work.component';
+import { SectionHeaderComponent } from './section-header/section-header.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { WorkComponent } from './work/work.component';
     ContactComponent,
     ContactCardComponent,
     WorkCardComponent,
-    WorkComponent
+    WorkComponent,
+    SectionHeaderComponent
   ],
   imports: [
     BrowserModule,

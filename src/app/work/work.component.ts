@@ -9,21 +9,14 @@ export class WorkComponent implements OnInit {
 
   constructor() { }
 
-  testCard = {
-    order: 2
-  }
-  testCard2 = {
-    order: 1
-  }
-  testCard3 = {
-    order: 2
-  }
-  testCard4 = {
-    order: 1
-  }
-  testCard5 = {
-    order: 2
-  }
+  projectList = [
+    {
+      name: "On The Road",
+      description: "This is my description",
+      liveLink: "https://ontheroadapp.herokuapp.com/",
+      githubLink: "https://github.com/kotaewing/OnTheRoad"
+    }
+  ]
 
   ngOnInit(): void {
   }
